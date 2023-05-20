@@ -14,6 +14,7 @@ body {
   color: #fff;
   background: url("../img/bg.jpg") top center no-repeat;
   background-size: cover;
+  /* background: url(); */
   position: relative;
 }
 
@@ -538,4 +539,28 @@ section {
 
 #footer .credits a {
   color: #ff3333;
+}
+
+.emailaddress{
+  width: fit-content;
+  padding: 10px 0px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.emailaddress a{
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #eee;
+}
+
+.emailaddress a i{
+  background-color: #333;
+  padding: 8px;
+  font-size: 20px;
+  border-radius: 50%;
+
 }
