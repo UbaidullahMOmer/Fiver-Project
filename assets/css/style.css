@@ -62,6 +62,7 @@ h6 {
 --------------------------------------------------------------*/
 
 .logo{
+  margin-top: -88px;
   margin-bottom: 80px;
 }
 
@@ -542,12 +543,13 @@ section {
 }
 
 .emailaddress{
-  width: fit-content;
   padding: 10px 0px;
   margin-bottom: 20px;
   display: flex;
   align-items: center;
   gap: 40px;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .emailaddress a{
