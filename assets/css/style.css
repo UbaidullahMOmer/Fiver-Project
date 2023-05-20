@@ -12,8 +12,8 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #fff;
-  /* background: url("../img/bg.jpg") top center no-repeat; */
-  /* background-size: cover; */
+  background: url("../img/bg.jpg") top center no-repeat;
+  background-size: cover;
   position: relative;
 }
 
